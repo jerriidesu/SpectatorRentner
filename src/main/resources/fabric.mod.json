@@ -1,0 +1,29 @@
+{
+  "schemaVersion": 1,
+  "id": "spectatorrentner",
+  "version": "${version}",
+  "name": "Spectator Rentner",
+  "description": "Configurable Keybinds for switching between spectator and creative",
+  "authors": [
+    "IsotopeMC"
+  ],
+  "contact": {
+    "website": "https://github.com/IsotopeMC/SpectatorRentner",
+    "repo": "https://github.com/IsotopeMC/SpectatorRentner"
+  },
+  "license": "MIT",
+  "environment": "client",
+  "entrypoints": {
+    "client": [
+      "dev.isotopemc.spectatorrentner.SpectatorRentner"
+    ]
+  },
+  "mixins": [
+    "mixins.rentner.json"
+  ],
+  "depends": {
+    "fabricloader": ">=0.13.3",
+    "minecraft": "1.18.2",
+    "fabric-key-binding-api-v1": ">=1.0.1"
+  }
+}
